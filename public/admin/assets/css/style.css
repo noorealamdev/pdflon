@@ -1,0 +1,35 @@
+.field-required {
+    color: red;
+}
+.form-group .control-label, .form-group > label {
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+}
+.note-toolbar.card-header {
+    padding: 0;
+}
+
+.header-navbar.floating-nav {
+    position: absolute;
+    right: 0;
+    margin: 0;
+    width: calc(100vw - (100vw - 100%) - calc(2rem * 2) - 200px);
+    border-radius: 0.428rem;
+    z-index: 12;
+}
+.dropdown-item:hover, .dropdown-item:focus {
+    background-color: #fff;
+}
+
+.dashboard-template-wrapper .dashboard-template-image img {
+    width: 260px;
+    height: 350px;
+}
+.dashboard-template-wrapper .dashboard-template-name {
+    width: 260px;
+    height: auto;
+}
+.dashboard-template-wrapper .dashboard-template-item {
+    padding-bottom: 100px;
+}

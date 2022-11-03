@@ -1,0 +1,200 @@
+.horizontal-layout.navbar-floating:not(.blank-page) .app-content {
+    padding: calc(2rem + 1.45rem* 2 + 1.3rem) 0 0 0;
+}
+body.designTron {
+    overflow: hidden;
+}
+
+.left-menu {
+    width: 100%;
+    display: inline-flex;
+    margin-left: 30px;
+}
+
+.asset-buttons-wrapper .asset-btn {
+    width: 85px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+.card-header.asset-wrapper {
+    padding: 10px;
+}
+.asset-buttons-wrapper .asset-btn .btn-text {
+    font-size: 14px;
+    font-weight: 700;
+    color: #cfd1d5;
+    margin-top: 5px;
+}
+.asset-buttons-wrapper.d-flex {
+    margin-left: 8px;
+}
+
+.asset-buttons-wrapper .asset-btn .btn-icon svg {
+    width: 30px;
+    height: 30px;
+    fill: #D0D2D6;
+}
+
+.asset-body {
+    overflow-y: auto;
+    height: calc(100vh - 162px);
+    box-sizing: border-box;
+    border-top: 2px solid #151c2f;
+}
+
+.icons-items-wrapper .icons-item {
+    width: 57px;
+    padding: 10px;
+    overflow: hidden;
+    display: inline-block;
+}
+.icons-items-wrapper .icons-item .icons-svg {
+   cursor: pointer;
+}
+.icons-items-wrapper .icons-item .icons-svg svg {
+    fill: #727f98;
+}
+
+
+/* Template Items Wrapper */
+.template-items-wrapper {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.template-item .template-image img {
+    width: 100%;
+    height: auto;
+    opacity: 0.8;
+}
+.template-items-wrapper .template-item {
+    margin-bottom: 30px;
+    box-shadow: rgb(40, 48, 70) 0 3px 8px;
+}
+
+#toast-container > .toast-success {
+    background-color: #7367f0;
+    color:#FFFFFF;
+    text-align:left;
+    margin-right: 8px;
+}
+.feather.download-btn-icon {
+    width: 20px;
+    height: 18px;
+    margin-bottom: 2px;
+}
+.header-navbar .navbar-container .dropdown-menu-media {
+    width: 20rem;
+}
+
+/* Upper Tools Wrapper */
+.upper-tools-wrapper .upper-tool-btn {
+    width: 66px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+.upper-tools-wrapper .upper-tool-btn .upper-tool-text {
+    font-size: 12px;
+    font-weight: 700;
+    user-select: none;
+}
+
+
+.upper-tools-wrapper .upper-tool-btn .upper-tool-icon svg {
+    width: 30px;
+    height: 30px;
+}
+
+
+
+/* Main Tools Wrapper */
+.tools-buttons-wrapper {
+    background: #283046;
+    padding: 7px;
+    width: 100%;
+}
+
+.tools-buttons-wrapper .tools-left .main-tool-btn {
+    padding: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+.active.main-tool-btn {
+    margin: 0;
+    outline: currentcolor none 0px;
+    overflow: visible;
+    user-select: none;
+    text-decoration: inherit;
+    display: flex;
+    flex-direction: row;
+    -moz-box-align: center;
+    align-items: center;
+    padding: 0 7px;
+    width: auto;
+    height: 40px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    color: rgb(26, 26, 26);
+    cursor: pointer;
+    background: #b3b6bc none repeat scroll 0% 0%;
+}
+
+.tools-buttons-wrapper .tools-middle {
+    margin-left: 10px;
+}
+.tools-buttons-wrapper .tools-middle .tool-btn {
+    width: 45px;
+    padding: 5px;
+    cursor: pointer;
+}
+.tools-buttons-wrapper .tools-middle .tool-btn .icon-pen-freehand {
+    fill: #b3b6bc;
+    width: 28px;
+    height: 28px;
+}
+
+.penShape {
+    margin-top: 4px;
+    cursor: pointer;
+}
+.toolbar-border {
+    background-color: #b4b7bd;
+    width: 1px;
+    height: 35px;
+    margin: 3px 5px;
+}
+.penSizeRange {
+    width: 214px;
+    height: 40px;
+}
+
+.bootstrap-touchspin .bootstrap-touchspin-injected .bootstrap-touchspin-down i, .bootstrap-touchspin .bootstrap-touchspin-injected .bootstrap-touchspin-down svg, .bootstrap-touchspin .bootstrap-touchspin-injected .bootstrap-touchspin-up i, .bootstrap-touchspin .bootstrap-touchspin-injected .bootstrap-touchspin-up svg {
+    height: 1.5rem;
+    width: 1.5rem;
+    font-size: 0.8rem;
+    position: relative;
+    top: 0;
+}
+.bootstrap-touchspin.input-group .form-control {
+    padding: 10px;
+}
+
+/*.canvas-container-wrapper {*/
+/*    overflow-x: auto;*/
+/*    box-sizing: border-box;*/
+/*    height: calc(100vh - 144px);*/
+/*}*/
+
+.canvas-container-wrapper {
+    width: 1147px;
+    height: 520px;
+    overflow-x: auto !important;
+    overflow-y: auto !important;
+    white-space: nowrap;
+    margin-top: 8px;
+}
+
+.hasRemove {
+    display: none !important;
+}
